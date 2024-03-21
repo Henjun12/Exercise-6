@@ -1,24 +1,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
-
+    xmlns:tools="http://schemas.android.com/tools">
     <item
         android:id="@+id/mail"
-        android:icon="@android:drawable/ic_dialog_email"
+        android:icon="@drawable/ic_dialog_email"
         android:title="mail"
-        app:showAsAction="always" />
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/upload"
-        android:icon="@android:drawable/ic_menu_upload"
+        android:icon="@drawable/ic_menu_upload"
         android:title="upload"
-        app:showAsAction="always|withText" />
+        app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/share"
-        android:icon="@android:drawable/ic_menu_share"
-        android:title="share"
-        app:showAsAction="always" />
-
+        android:icon="@drawable/ic_menu_share"
+        android:title="share"/>
 </menu>
